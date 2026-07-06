@@ -1,0 +1,16 @@
+{
+  "name": "sylvester-plugins",
+  "owner": {
+    "name": "Sylvester Francis"
+  },
+  "description": "Claude Code plugins by Sylvester Francis.",
+  "plugins": [
+    {
+      "name": "scaffolding-go-projects",
+      "source": "./plugins/scaffolding-go-projects",
+      "description": "Best-practice layout and tooling for scaffolding a new Go project (application or library), with annotated golang-standards/project-layout guidance.",
+      "keywords": ["go", "golang", "scaffolding", "project-layout", "conventions"],
+      "category": "development"
+    }
+  ]
+}

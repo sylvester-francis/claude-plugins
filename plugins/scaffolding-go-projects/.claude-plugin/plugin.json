@@ -1,0 +1,14 @@
+{
+  "name": "scaffolding-go-projects",
+  "displayName": "Scaffolding Go Projects",
+  "version": "0.1.0",
+  "description": "Best-practice layout and tooling for scaffolding a new Go project (application or library), with annotated golang-standards/project-layout guidance.",
+  "author": {
+    "name": "Sylvester Francis",
+    "url": "https://github.com/sylvester-francis"
+  },
+  "homepage": "https://github.com/sylvester-francis/claude-plugins",
+  "repository": "https://github.com/sylvester-francis/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["go", "golang", "scaffolding", "project-layout", "cmd", "internal", "conventions", "ci"]
+}
