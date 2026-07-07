@@ -49,6 +49,20 @@ TypeScript developer-productivity skills:
 - **observability-typescript** — `pino` logging, `prom-client` RED metrics, OpenTelemetry.
 - **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
+### python-toolkit
+
+```
+/plugin install python-toolkit@sylvester-plugins
+```
+
+Python developer-productivity skills:
+- **scaffolding-python-projects** — `src/` layout, `pyproject.toml`, uv, ruff, mypy, pytest.
+- **debugging-python** — tracebacks, `pdb`, `py-spy`, `faulthandler`, `tracemalloc`, asyncio.
+- **testing-python** — pytest, fixtures, parametrize, fakes, coverage, Hypothesis.
+- **refactoring-python** — type hints + mypy, dataclasses, comprehensions, ruff.
+- **performance-python** — `cProfile`/`py-spy` measure-first, the right fix, the GIL.
+- **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
+
 ### model-orchestration
 
 ```

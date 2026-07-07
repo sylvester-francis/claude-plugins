@@ -4,7 +4,7 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "plugins": [
     {
       "name": "go-toolkit",
@@ -18,6 +18,13 @@
       "source": "./plugins/typescript-toolkit",
       "description": "TypeScript developer-productivity skills: scaffolding, debugging, testing, refactoring/type-safety, performance, security, observability, and tiered model orchestration.",
       "keywords": ["typescript", "nestjs", "node", "scaffolding", "debugging", "testing", "refactoring", "performance", "security", "observability", "orchestration"],
+      "category": "development"
+    },
+    {
+      "name": "python-toolkit",
+      "source": "./plugins/python-toolkit",
+      "description": "Python developer-productivity skills: scaffolding (uv/ruff/mypy/pytest), debugging, testing, refactoring/type-safety, performance profiling, and tiered model orchestration.",
+      "keywords": ["python", "uv", "ruff", "mypy", "pytest", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
       "category": "development"
     },
     {

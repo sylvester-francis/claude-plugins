@@ -1,0 +1,14 @@
+{
+  "name": "python-toolkit",
+  "displayName": "Python Toolkit",
+  "version": "0.1.0",
+  "description": "Python developer-productivity skills: project scaffolding (uv/ruff/mypy/pytest), debugging, testing, refactoring/type-safety, performance profiling, and tiered model orchestration.",
+  "author": {
+    "name": "Sylvester Francis",
+    "url": "https://github.com/sylvester-francis"
+  },
+  "homepage": "https://github.com/sylvester-francis/claude-plugins",
+  "repository": "https://github.com/sylvester-francis/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["python", "uv", "ruff", "mypy", "pytest", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration", "productivity"]
+}
