@@ -21,6 +21,10 @@ A bundle of Python developer-productivity skills for Claude Code.
   `pathlib`, context managers, and fixing mutable defaults / bare excepts (ruff).
 - **performance-python** — measure-first profiling with `cProfile`/`py-spy`/`timeit`,
   `tracemalloc`, the right fix (algorithm/caching/numpy), and the GIL escape hatch.
+- **security-python** — review/harden a FastAPI/Django/Flask API: authz/IDOR, input
+  validation, injection, auth, CORS, SSRF, and Python footguns (pickle/yaml.load/shell).
+- **observability-python** — `structlog` structured logging, `prometheus_client` RED
+  metrics, and OpenTelemetry tracing wired at the edges (contextvars correlation).
 - **tiered-model-orchestration** — route a substantial task across model tiers:
   plan with Opus (max effort), execute with Sonnet, cross-verify with
   Haiku/Sonnet via an independent, adversarial pass.

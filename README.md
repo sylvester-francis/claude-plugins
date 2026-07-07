@@ -61,6 +61,8 @@ Python developer-productivity skills:
 - **testing-python** — pytest, fixtures, parametrize, fakes, coverage, Hypothesis.
 - **refactoring-python** — type hints + mypy, dataclasses, comprehensions, ruff.
 - **performance-python** — `cProfile`/`py-spy` measure-first, the right fix, the GIL.
+- **security-python** — authz/IDOR, input validation, injection, auth, SSRF, Python footguns.
+- **observability-python** — `structlog` logging, `prometheus_client` RED metrics, OpenTelemetry.
 - **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
 ### rust-toolkit
@@ -75,6 +77,8 @@ Rust developer-productivity skills:
 - **testing-rust** — unit/integration/doc tests, fakes vs `mockall`, `proptest`, `criterion`.
 - **refactoring-rust** — clippy, borrowing idioms, `?` + `thiserror`, iterators, illegal-states-unrepresentable enums.
 - **performance-rust** — `criterion` + `cargo flamegraph`, release profile, cutting allocations, `rayon`.
+- **security-rust** — authz/IDOR, `sqlx` injection, unwrap-as-DoS, SSRF, `cargo audit`/`deny`.
+- **observability-rust** — the `tracing` crate + `tracing-opentelemetry`, RED metrics, tower layers.
 - **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
 ### model-orchestration

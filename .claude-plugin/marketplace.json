@@ -4,7 +4,7 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "plugins": [
     {
       "name": "go-toolkit",
@@ -23,15 +23,15 @@
     {
       "name": "python-toolkit",
       "source": "./plugins/python-toolkit",
-      "description": "Python developer-productivity skills: scaffolding (uv/ruff/mypy/pytest), debugging, testing, refactoring/type-safety, performance profiling, and tiered model orchestration.",
-      "keywords": ["python", "uv", "ruff", "mypy", "pytest", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
+      "description": "Python developer-productivity skills: scaffolding, debugging, testing, refactoring/type-safety, performance, security, observability, and tiered model orchestration.",
+      "keywords": ["python", "uv", "ruff", "mypy", "pytest", "scaffolding", "debugging", "testing", "refactoring", "performance", "security", "observability", "orchestration"],
       "category": "development"
     },
     {
       "name": "rust-toolkit",
       "source": "./plugins/rust-toolkit",
-      "description": "Rust developer-productivity skills: scaffolding (cargo/clippy/thiserror), debugging, testing, refactoring, performance (criterion/flamegraph), and tiered model orchestration.",
-      "keywords": ["rust", "cargo", "clippy", "tokio", "criterion", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
+      "description": "Rust developer-productivity skills: scaffolding, debugging, testing, refactoring, performance, security, observability, and tiered model orchestration.",
+      "keywords": ["rust", "cargo", "clippy", "tokio", "criterion", "scaffolding", "debugging", "testing", "refactoring", "performance", "security", "observability", "orchestration"],
       "category": "development"
     },
     {

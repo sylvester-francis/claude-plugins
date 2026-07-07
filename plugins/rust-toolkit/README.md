@@ -22,6 +22,10 @@ A bundle of Rust developer-productivity skills for Claude Code.
   unrepresentable.
 - **performance-rust** — measure-first with `criterion` + `cargo flamegraph`, the
   release profile, cutting allocations/clones, iterators, and `rayon`.
+- **security-rust** — review/harden an axum/actix service: authz/IDOR, `sqlx`
+  injection, unwrap/panic-as-DoS, auth, SSRF, `unsafe` auditing, and `cargo audit`/`deny`.
+- **observability-rust** — the `tracing` crate + `tracing-opentelemetry`, Prometheus
+  RED metrics, and correlation IDs wired as tower layers.
 - **tiered-model-orchestration** — route a substantial task across model tiers:
   plan with Opus (max effort), execute with Sonnet, cross-verify with
   Haiku/Sonnet via an independent, adversarial pass.
