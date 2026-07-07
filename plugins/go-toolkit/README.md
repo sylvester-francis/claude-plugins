@@ -14,8 +14,16 @@ A bundle of Go developer-productivity skills for Claude Code.
 - **scaffolding-go-projects** — best-practice layout and tooling for a new Go
   project (application or library), with annotated golang-standards/project-layout
   guidance.
-
-_Being added: `debugging-go`, `testing-go`, `refactoring-go`, `performance-go`._
+- **debugging-go** — diagnose panics, data races, hangs, and goroutine/memory
+  leaks with the race detector, pprof, `GODEBUG`, and delve; read panics and
+  goroutine dumps.
+- **testing-go** — table-driven tests, fakes over mocks, `httptest` handlers,
+  `errors.Is` assertions, golden files, fuzzing, and the `go test` workflow.
+- **refactoring-go** — Go idioms (accept interfaces/return structs, `%w` wrapping,
+  small interfaces), anti-patterns, behavior-preserving cleanups, and reviewing a
+  diff.
+- **performance-go** — measure-first optimization with benchmarks, pprof
+  (cpu/mem/block/mutex), escape analysis, and benchstat.
 
 ## License
 

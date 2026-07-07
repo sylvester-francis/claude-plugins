@@ -16,11 +16,14 @@ Claude Code plugins by Sylvester Francis, organized as per-language toolkits.
 /plugin install go-toolkit@sylvester-plugins
 ```
 
-Go developer-productivity skills. Currently:
+Go developer-productivity skills:
 - **scaffolding-go-projects** — layout and tooling for a new Go project
   (application or library) + annotated golang-standards/project-layout.
-
-_Coming: `debugging-go`, `testing-go`, `refactoring-go`, `performance-go`._
+- **debugging-go** — races, hangs, panics, and leaks via the race detector,
+  pprof, `GODEBUG`, and delve.
+- **testing-go** — table-driven tests, fakes, `httptest`, fuzzing, coverage.
+- **refactoring-go** — idioms, anti-patterns, and behavior-preserving cleanups.
+- **performance-go** — measure-first profiling with benchmarks, pprof, benchstat.
 
 ### typescript-toolkit
 

@@ -4,13 +4,13 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "plugins": [
     {
       "name": "go-toolkit",
       "source": "./plugins/go-toolkit",
-      "description": "Go developer-productivity skills: project scaffolding and golang-standards/project-layout guidance, with debugging, testing, refactoring, and performance skills being added.",
-      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "performance"],
+      "description": "Go developer-productivity skills: scaffolding (with golang-standards/project-layout), debugging, testing, refactoring/review, and performance profiling.",
+      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "refactoring", "performance"],
       "category": "development"
     },
     {
