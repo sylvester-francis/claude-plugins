@@ -43,6 +43,16 @@ TypeScript developer-productivity skills:
 - **performance-typescript** — measure-first tuning with load tests, clinic/0x,
   and `--cpu-prof`.
 
+### model-orchestration
+
+```
+/plugin install model-orchestration@sylvester-plugins
+```
+
+Language-agnostic. Routes a substantial task across model tiers — **plan with
+Opus (max effort) → execute with Sonnet → cross-verify with Haiku/Sonnet** via an
+independent, adversarial pass.
+
 ## Repository layout
 
 ```

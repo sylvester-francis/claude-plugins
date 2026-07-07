@@ -1,0 +1,14 @@
+{
+  "name": "model-orchestration",
+  "displayName": "Model Orchestration",
+  "version": "0.1.0",
+  "description": "Tiered model orchestration for substantial tasks: plan with Opus (max effort), execute with Sonnet, and cross-verify with Haiku or Sonnet via an independent, adversarial pass.",
+  "author": {
+    "name": "Sylvester Francis",
+    "url": "https://github.com/sylvester-francis"
+  },
+  "homepage": "https://github.com/sylvester-francis/claude-plugins",
+  "repository": "https://github.com/sylvester-francis/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["orchestration", "model-routing", "opus", "sonnet", "haiku", "plan-execute-verify", "subagents", "workflow", "productivity"]
+}
