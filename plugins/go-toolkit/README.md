@@ -24,6 +24,10 @@ A bundle of Go developer-productivity skills for Claude Code.
   diff.
 - **performance-go** — measure-first optimization with benchmarks, pprof
   (cpu/mem/block/mutex), escape analysis, and benchstat.
+- **tiered-model-orchestration** — route a substantial task across model tiers:
+  plan with Opus (max effort), execute with Sonnet, cross-verify with
+  Haiku/Sonnet via an independent, adversarial pass. (Also available standalone
+  as the `model-orchestration` plugin.)
 
 ## License
 

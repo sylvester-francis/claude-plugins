@@ -23,6 +23,10 @@ A bundle of TypeScript developer-productivity skills for Claude Code.
   narrowing over `as`, `readonly`, and strict compiler + type-aware lint.
 - **performance-typescript** — measure-first tuning: load tests, classifying
   CPU-bound vs event-loop-blocked vs I/O-bound vs GC, and clinic/0x/`--cpu-prof`.
+- **tiered-model-orchestration** — route a substantial task across model tiers:
+  plan with Opus (max effort), execute with Sonnet, cross-verify with
+  Haiku/Sonnet via an independent, adversarial pass. (Also available standalone
+  as the `model-orchestration` plugin.)
 
 ## License
 

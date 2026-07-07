@@ -4,26 +4,26 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "plugins": [
     {
       "name": "go-toolkit",
       "source": "./plugins/go-toolkit",
-      "description": "Go developer-productivity skills: scaffolding (with golang-standards/project-layout), debugging, testing, refactoring/review, and performance profiling.",
-      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "refactoring", "performance"],
+      "description": "Go developer-productivity skills: scaffolding (with golang-standards/project-layout), debugging, testing, refactoring/review, performance profiling, and tiered model orchestration.",
+      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
       "category": "development"
     },
     {
       "name": "typescript-toolkit",
       "source": "./plugins/typescript-toolkit",
-      "description": "TypeScript developer-productivity skills: scaffolding (Node/NestJS apps and npm libraries), debugging, testing, refactoring/type-safety, and performance profiling.",
-      "keywords": ["typescript", "nestjs", "node", "scaffolding", "debugging", "testing", "refactoring", "performance"],
+      "description": "TypeScript developer-productivity skills: scaffolding (Node/NestJS apps and npm libraries), debugging, testing, refactoring/type-safety, performance profiling, and tiered model orchestration.",
+      "keywords": ["typescript", "nestjs", "node", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
       "category": "development"
     },
     {
       "name": "model-orchestration",
       "source": "./plugins/model-orchestration",
-      "description": "Tiered model orchestration for substantial tasks: plan with Opus (max effort), execute with Sonnet, and cross-verify with Haiku or Sonnet via an independent, adversarial pass.",
+      "description": "Language-agnostic tiered model orchestration for substantial tasks: plan with Opus (max effort), execute with Sonnet, and cross-verify with Haiku or Sonnet via an independent, adversarial pass.",
       "keywords": ["orchestration", "model-routing", "opus", "sonnet", "haiku", "plan-execute-verify"],
       "category": "development"
     }

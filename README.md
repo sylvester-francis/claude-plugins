@@ -24,6 +24,7 @@ Go developer-productivity skills:
 - **testing-go** — table-driven tests, fakes, `httptest`, fuzzing, coverage.
 - **refactoring-go** — idioms, anti-patterns, and behavior-preserving cleanups.
 - **performance-go** — measure-first profiling with benchmarks, pprof, benchstat.
+- **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
 ### typescript-toolkit
 
@@ -42,6 +43,7 @@ TypeScript developer-productivity skills:
   narrowing, and strict compiler + type-aware lint.
 - **performance-typescript** — measure-first tuning with load tests, clinic/0x,
   and `--cpu-prof`.
+- **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
 ### model-orchestration
 
