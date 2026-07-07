@@ -1,8 +1,8 @@
 {
   "name": "typescript-toolkit",
   "displayName": "TypeScript Toolkit",
-  "version": "0.1.0",
-  "description": "TypeScript developer-productivity skills. Currently: project scaffolding for Node/NestJS apps and npm libraries (debugging, testing, refactoring, and performance are being added).",
+  "version": "0.2.0",
+  "description": "TypeScript developer-productivity skills: project scaffolding (Node/NestJS apps and npm libraries), debugging, testing, refactoring/type-safety, and performance profiling.",
   "author": {
     "name": "Sylvester Francis",
     "url": "https://github.com/sylvester-francis"

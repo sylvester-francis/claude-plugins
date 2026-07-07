@@ -31,13 +31,17 @@ Go developer-productivity skills:
 /plugin install typescript-toolkit@sylvester-plugins
 ```
 
-TypeScript developer-productivity skills. Currently:
+TypeScript developer-productivity skills:
 - **scaffolding-typescript-projects** — layout and tooling for a Node/NestJS app
   or npm library (tsconfig strictness, module format, the exports map, NestJS
   conventions).
-
-_Coming: `debugging-typescript`, `testing-typescript`, `refactoring-typescript`,
-`performance-typescript`._
+- **debugging-typescript** — source maps, event-loop blocks, unresolved promises,
+  and memory leaks via the inspector, CPU/heap profiles, and diagnostic reports.
+- **testing-typescript** — vitest/jest, fakes, `supertest`, Testcontainers, coverage.
+- **refactoring-typescript** — killing `any`, discriminated unions, `satisfies`,
+  narrowing, and strict compiler + type-aware lint.
+- **performance-typescript** — measure-first tuning with load tests, clinic/0x,
+  and `--cpu-prof`.
 
 ## Repository layout
 
