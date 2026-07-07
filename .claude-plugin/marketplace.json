@@ -4,20 +4,20 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "plugins": [
     {
       "name": "go-toolkit",
       "source": "./plugins/go-toolkit",
-      "description": "Go developer-productivity skills: scaffolding (with golang-standards/project-layout), debugging, testing, refactoring/review, performance profiling, and tiered model orchestration.",
-      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
+      "description": "Go developer-productivity skills: scaffolding, debugging, testing, refactoring/review, performance, security, observability, and tiered model orchestration.",
+      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "refactoring", "performance", "security", "observability", "orchestration"],
       "category": "development"
     },
     {
       "name": "typescript-toolkit",
       "source": "./plugins/typescript-toolkit",
-      "description": "TypeScript developer-productivity skills: scaffolding (Node/NestJS apps and npm libraries), debugging, testing, refactoring/type-safety, performance profiling, and tiered model orchestration.",
-      "keywords": ["typescript", "nestjs", "node", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration"],
+      "description": "TypeScript developer-productivity skills: scaffolding, debugging, testing, refactoring/type-safety, performance, security, observability, and tiered model orchestration.",
+      "keywords": ["typescript", "nestjs", "node", "scaffolding", "debugging", "testing", "refactoring", "performance", "security", "observability", "orchestration"],
       "category": "development"
     },
     {

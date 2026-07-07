@@ -24,6 +24,10 @@ A bundle of Go developer-productivity skills for Claude Code.
   diff.
 - **performance-go** — measure-first optimization with benchmarks, pprof
   (cpu/mem/block/mutex), escape analysis, and benchstat.
+- **security-go** — review/harden a Go HTTP service: authz/IDOR, SQL injection,
+  server timeouts, TLS, SSRF, secrets, and `govulncheck`/`gosec` CI gating.
+- **observability-go** — structured logging (`slog`), Prometheus RED metrics, and
+  OpenTelemetry tracing wired as middleware without coupling business logic.
 - **tiered-model-orchestration** — route a substantial task across model tiers:
   plan with Opus (max effort), execute with Sonnet, cross-verify with
   Haiku/Sonnet via an independent, adversarial pass. (Also available standalone

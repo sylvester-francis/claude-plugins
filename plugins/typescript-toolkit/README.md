@@ -23,6 +23,10 @@ A bundle of TypeScript developer-productivity skills for Claude Code.
   narrowing over `as`, `readonly`, and strict compiler + type-aware lint.
 - **performance-typescript** — measure-first tuning: load tests, classifying
   CPU-bound vs event-loop-blocked vs I/O-bound vs GC, and clinic/0x/`--cpu-prof`.
+- **security-typescript** — review/harden a Node/NestJS API: authz/IDOR, input
+  validation, injection, JWT pitfalls, CORS, SSRF, and dependency CVEs.
+- **observability-typescript** — `pino` logging, `prom-client` RED metrics, and
+  OpenTelemetry tracing (with the load-order gotcha) wired at the edges.
 - **tiered-model-orchestration** — route a substantial task across model tiers:
   plan with Opus (max effort), execute with Sonnet, cross-verify with
   Haiku/Sonnet via an independent, adversarial pass. (Also available standalone
