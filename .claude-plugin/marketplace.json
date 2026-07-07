@@ -4,21 +4,25 @@
     "name": "Sylvester Francis"
   },
   "description": "Claude Code plugins by Sylvester Francis.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "plugins": [
     {
-      "name": "scaffolding-go-projects",
-      "source": "./plugins/scaffolding-go-projects",
-      "description": "Best-practice layout and tooling for scaffolding a new Go project (application or library), with annotated golang-standards/project-layout guidance.",
-      "keywords": ["go", "golang", "scaffolding", "project-layout", "conventions"],
+      "name": "go-toolkit",
+      "source": "./plugins/go-toolkit",
+      "description": "Go developer-productivity skills: project scaffolding and golang-standards/project-layout guidance, with debugging, testing, refactoring, and performance skills being added.",
+      "keywords": ["go", "golang", "scaffolding", "debugging", "testing", "performance"],
       "category": "development"
     },
     {
-      "name": "scaffolding-typescript-projects",
-      "source": "./plugins/scaffolding-typescript-projects",
-      "description": "Best-practice layout and tooling for scaffolding a new TypeScript project (Node service, NestJS app, CLI, or npm library), including tsconfig strictness, module format, the package.json exports map, and NestJS conventions.",
-      "keywords": ["typescript", "nestjs", "node", "scaffolding", "esm", "conventions"],
+      "name": "typescript-toolkit",
+      "source": "./plugins/typescript-toolkit",
+      "description": "TypeScript developer-productivity skills: project scaffolding for Node/NestJS apps and npm libraries, with debugging, testing, refactoring, and performance skills being added.",
+      "keywords": ["typescript", "nestjs", "node", "scaffolding", "testing", "performance"],
       "category": "development"
     }
-  ]
+  ],
+  "renames": {
+    "scaffolding-go-projects": "go-toolkit",
+    "scaffolding-typescript-projects": "typescript-toolkit"
+  }
 }
