@@ -1,0 +1,14 @@
+{
+  "name": "rust-toolkit",
+  "displayName": "Rust Toolkit",
+  "version": "0.1.0",
+  "description": "Rust developer-productivity skills: project scaffolding (cargo/clippy/thiserror), debugging, testing, refactoring, performance (criterion/flamegraph), and tiered model orchestration.",
+  "author": {
+    "name": "Sylvester Francis",
+    "url": "https://github.com/sylvester-francis"
+  },
+  "homepage": "https://github.com/sylvester-francis/claude-plugins",
+  "repository": "https://github.com/sylvester-francis/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["rust", "cargo", "clippy", "tokio", "criterion", "scaffolding", "debugging", "testing", "refactoring", "performance", "orchestration", "productivity"]
+}

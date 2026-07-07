@@ -63,6 +63,20 @@ Python developer-productivity skills:
 - **performance-python** — `cProfile`/`py-spy` measure-first, the right fix, the GIL.
 - **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
 
+### rust-toolkit
+
+```
+/plugin install rust-toolkit@sylvester-plugins
+```
+
+Rust developer-productivity skills:
+- **scaffolding-rust-projects** — binary/library/workspace, `thiserror`/`anyhow`, clippy gates.
+- **debugging-rust** — panics/backtraces, `dbg!`, `rust-lldb`, `tracing`, `tokio-console`, borrow errors.
+- **testing-rust** — unit/integration/doc tests, fakes vs `mockall`, `proptest`, `criterion`.
+- **refactoring-rust** — clippy, borrowing idioms, `?` + `thiserror`, iterators, illegal-states-unrepresentable enums.
+- **performance-rust** — `criterion` + `cargo flamegraph`, release profile, cutting allocations, `rayon`.
+- **tiered-model-orchestration** — plan (Opus/max) → execute (Sonnet) → cross-verify (Haiku/Sonnet).
+
 ### model-orchestration
 
 ```
